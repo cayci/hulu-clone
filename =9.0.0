@@ -1,0 +1,49 @@
+yarn add v1.3.2
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info @swc/core-android-arm64@1.2.88: The platform "darwin" is incompatible with this module.
+info "@swc/core-android-arm64@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @swc/core-android-arm64@1.2.88: The CPU architecture "x64" is incompatible with this module.
+info @swc/core-darwin-arm64@1.2.88: The CPU architecture "x64" is incompatible with this module.
+info "@swc/core-darwin-arm64@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @swc/core-freebsd-x64@1.2.88: The platform "darwin" is incompatible with this module.
+info "@swc/core-freebsd-x64@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @swc/core-linux-arm-gnueabihf@1.2.88: The platform "darwin" is incompatible with this module.
+info "@swc/core-linux-arm-gnueabihf@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @swc/core-linux-arm-gnueabihf@1.2.88: The CPU architecture "x64" is incompatible with this module.
+info @swc/core-linux-arm64-gnu@1.2.88: The platform "darwin" is incompatible with this module.
+info "@swc/core-linux-arm64-gnu@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @swc/core-linux-arm64-gnu@1.2.88: The CPU architecture "x64" is incompatible with this module.
+info @swc/core-linux-arm64-musl@1.2.88: The platform "darwin" is incompatible with this module.
+info "@swc/core-linux-arm64-musl@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @swc/core-linux-arm64-musl@1.2.88: The CPU architecture "x64" is incompatible with this module.
+info @swc/core-linux-x64-gnu@1.2.88: The platform "darwin" is incompatible with this module.
+info "@swc/core-linux-x64-gnu@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @swc/core-linux-x64-musl@1.2.88: The platform "darwin" is incompatible with this module.
+info "@swc/core-linux-x64-musl@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @swc/core-win32-arm64-msvc@1.2.88: The platform "darwin" is incompatible with this module.
+info "@swc/core-win32-arm64-msvc@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @swc/core-win32-arm64-msvc@1.2.88: The CPU architecture "x64" is incompatible with this module.
+info @swc/core-win32-ia32-msvc@1.2.88: The platform "darwin" is incompatible with this module.
+info "@swc/core-win32-ia32-msvc@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @swc/core-win32-ia32-msvc@1.2.88: The CPU architecture "x64" is incompatible with this module.
+info @swc/core-win32-x64-msvc@1.2.88: The platform "darwin" is incompatible with this module.
+info "@swc/core-win32-x64-msvc@1.2.88" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 13 new dependencies.
+├─ @cspotcode/source-map-consumer@0.8.0
+├─ @cspotcode/source-map-support@0.6.1
+├─ @tsconfig/node10@1.0.8
+├─ @tsconfig/node12@1.0.9
+├─ @tsconfig/node14@1.0.1
+├─ @tsconfig/node16@1.0.2
+├─ acorn-walk@8.2.0
+├─ arg@4.1.3
+├─ create-require@1.1.1
+├─ diff@4.0.2
+├─ make-error@1.3.6
+├─ ts-node@10.2.1
+└─ yn@3.1.1
+Done in 7.07s.
