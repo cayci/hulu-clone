@@ -23,5 +23,5 @@ function Nav() {
     );
 }
 
-Nav.displayName = "Nav";
+Thumbnail.displayName = "Thumbnnail";
 export default Nav;

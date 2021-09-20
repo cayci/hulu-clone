@@ -8,5 +8,5 @@ function HeaderItem({ Icon, title }) {
         </div>
     );
 }
-HeaderItem.displayName = "HeaderItem";
+Thumbnail.displayName = "Thumbnnail";
 export default HeaderItem;

@@ -10,5 +10,5 @@ function Results({ results }) {
         </FlipMove>
     );
 }
-Results.displayName = "Results";
+
 export default Results;

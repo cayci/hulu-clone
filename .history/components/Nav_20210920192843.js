@@ -23,5 +23,5 @@ function Nav() {
     );
 }
 
-Nav.displayName = "Nav";
+Nav.displayName = "";
 export default Nav;

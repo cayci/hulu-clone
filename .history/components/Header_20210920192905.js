@@ -25,5 +25,5 @@ function Header() {
         </header>
     )
 }
-Header.displayName = "Header";
+Thumbnail.displayName = "Thumbnnail";
 export default Header;
