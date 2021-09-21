@@ -20,7 +20,7 @@ function Header() {
                 <HeaderItem title="SEARCH" Icon={SearchIcon} />
                 <HeaderItem title="ACCOUNT" Icon={UserIcon} />
             </div>
-            <Image className="object-contain" src="/hulu-Logo.svg" width={100} height={150} 
+            <Image className="object-contain" src="/hulu-Logo.svg" width={200} height={300} 
             />
         </header>
     )

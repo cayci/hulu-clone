@@ -6,7 +6,7 @@ function Nav() {
 
     return (
         <nav className="flex flex-col justify-between items-center flex-wrap">
-            <div className="inline-flex flex-grow justify-evenly items-center px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide">
+            <div className="inline-flex flex-grow justify-evenly items-center flex-grow px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide">
                 {Object.entries(requests).map(([key, { title, url }]) => (
 
                 <h2 
