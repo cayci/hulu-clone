@@ -5,8 +5,8 @@ function Nav() {
     const router = useRouter();
 
     return (
-        <nav className="flex items-center flex-wrap">
-            <div className="inline-flex items-center flex-grow px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide">
+        <nav className="relative">
+            <div className="gr px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide">
                 {Object.entries(requests).map(([key, { title, url }]) => (
 
                 <h2 
@@ -18,7 +18,7 @@ function Nav() {
                 </h2>
             ))}
             </div>
-            <div className="top-0 right-0 bg-gradient-to-l from-[#06202A] h-10 w-1/12" />
+            <div className="absolute top-0 right-0 bg-gradient-to-l from-[#06202A] h-10 w-1/12" />
         </nav>
     );
 }

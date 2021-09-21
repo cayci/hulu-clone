@@ -5,7 +5,7 @@ function Nav() {
     const router = useRouter();
 
     return (
-        <nav className="flex items-center flex-wrap">
+        <nav className="flex items-center flex">
             <div className="inline-flex items-center flex-grow px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide">
                 {Object.entries(requests).map(([key, { title, url }]) => (
 
