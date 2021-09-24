@@ -1,13 +1,16 @@
 {
-  "name": "hulu-clone",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "name": "hulu-clone",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@babel/core": "^7.0.0-0",
     "@heroicons/react": "^1.0.4",
@@ -28,6 +31,12 @@
     "webpack": "^5.52.0"
   },
   "devDependencies": {
+    "@layer0/cli": "^3.16.11",
+    "@layer0/core": "^3.16.11",
+    "@layer0/devtools": "^3.16.11",
+    "@layer0/next": "^3.16.11",
+    "@layer0/prefetch": "^3.16.11",
+    "@layer0/react": "^3.16.11",
     "autoprefixer": "^10.3.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.0",
